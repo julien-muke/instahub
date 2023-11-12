@@ -1,27 +1,71 @@
-# React + TypeScript + Vite
+# Build and Deploy a Full Stack Social Media App | React JS, Appwrite, Tailwind CSS, React Query
+![Screenshot](Screenshot.jpg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Introduction
+Build a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more.
 
-Currently, two official plugins are available:
+# Implementation
+- A Native Moblie Feel
+- Handling user auth
+- Scaling
+- Managing and storing files security
+- Optimizing API performance
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Learn from:
+  ⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
 
-## Expanding the ESLint configuration
+# Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Follow these steps to install and run the project:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the repository**
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+   Open your terminal and run the following command to clone the repository:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/julien-muke/instahub.git
+   ```
+
+2. **Navigate to the project directory**
+
+   ```bash
+   cd instahub
+   ```
+
+3. **Install Node.js**
+
+   The project requires Node.js to run. If you don't have it installed, you can download it from [here](https://nodejs.org/en/download/).
+
+4. **Install the required packages**
+
+   The project requires several packages to be installed. Run the following command to install them:
+
+   ```bash
+   npm i
+   ```
+
+5. **Set up the environment variables**
+
+   The project requires the APPWRITE environment variable to be defined. You can do this in a `.env` file in the root of your project:
+
+   ```bash
+   VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+   VITE_APPWRITE_URL=your_appwrite_url
+   VITE_APPWRITE_STORAGE_ID=your_appwrite_storage_id
+   VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
+   VITE_APPWRITE_SAVES_COLLECTION_ID=your_appwrite_saves_id
+   VITE_APPWRITE_POST_COLLECTION_ID=your_appwrite_post_id
+   VITE_APPWRITE_USER_COLLECTION_ID=your_appwrite_user_id
+
+   ```
+
+7. **Start the server**
+
+   Run the following command to start the server:
+
+   ```bash
+   npm run start
+   ```
+
+
+
